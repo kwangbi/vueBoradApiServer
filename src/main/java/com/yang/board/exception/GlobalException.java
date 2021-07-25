@@ -12,5 +12,4 @@ public class GlobalException {
     public JSONObject duplicateEmailException(){
         return ErrorResponse.JsonErrorResponse(400, "중복된 이메일 입니다.");
     }
-
 }
